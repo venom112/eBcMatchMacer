@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'AdobeArabic';
+    src: url('../Fonts/AdobeArabic-Regular.otf');
+}
+@font-face {
+    font-family: 'ArialBold';
+    src: url('../Fonts/Arial-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../Fonts/Poppins-SemiBold.otf') format('opentype');
+}
+
+html, body {
+    height: 100%;
+    margin: 5px 25%;
+    padding: 0;
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+
+body { 
+    background: url('../imgs/6M3hVOnRI43.png') no-repeat center center;
+    background-size: cover; 
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.container
+{
+    margin-top: 157px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.info-box{
+    margin-left: 100px; 
+}
+
+/* تأثير transition على الأزرار */
+#btn{
+    font-weight:bold;
+    font-size:x-large;
+    background-color:#f0eeee !important;
+    border-color: #fff;
+    color:#222121;
+    transition:0.3s ease;
+    border-radius: 10%;
+}
+
+/* تأثير عند الضغط على الزر */
+#btn:active{
+    background-color: #e94242 !important; 
+    border-color: #fff;
+    color:#fff; 
+}
+
+
+
+
+
+
+
+#btn{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#btn1{
+    margin-left: 300px;
+}
+
+
+#btnT #btn{
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+
+#btnN{
+    margin-top: 80px;
+    margin-left: 220px;
+}
+
+#btnG{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+#btnKi{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+#btnRS{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+
+
+
+#drug img{
+    margin-top: 20px;
+    height: 90px;
+}
+
+#chart img{
+    margin-top: 20px;
+    margin-left: 350px;
+    height: 90px;
+}

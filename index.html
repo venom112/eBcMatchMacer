@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>eBC MatchMaker</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+        
+    </head>
+   
+
+<body>
+<div class="container ">
+
+<div>
+    <div id="btn1">
+         <div id="btnT" class="buttons">
+            <button id="btn" class="btn" onclick="showConditions('T0')">T0</button>
+             <button id="btn" class="btn" onclick="showConditions('T1')">T1</button>
+             <button id="btn" class="btn" onclick=" showConditions('T2')">T2</button>
+             <button id="btn" class="btn" onclick=" showConditions('T3')">T3</button>
+             <button id="btn" class="btn" onclick=" showConditions('T4')">T4</button>
+            
+        </div> 
+    </div>
+</div>
+<div id="btnN" class="row align-items-center"style="height: 70px;">
+    <div class="info-box">
+        <div class="buttons">
+            <button id="btn" class="btn btn-light" onclick="showConditions('N0')">N0</button>
+            <button id="btn" class="btn btn-light" onclick="showConditions('N1')">N1</button>
+            <button id="btn" class="btn btn-light" onclick="showConditions('N2')">N2</button>
+            <button id="btn" class="btn btn-light" onclick="showConditions('N3')">N3</button>
+        </div>
+    </div>
+</div>
+<div id="btnG" class="row align-items-center"style="height: 70px;">
+    <div class="info-box">
+        <div class="buttons">
+            <button id="btn" class="btn btn-light"onclick="showConditions('G1')">G1</button>
+            <button id="btn" class="btn btn-light"onclick="showConditions('G2')">G2</button>
+            <button id="btn" class="btn btn-light"onclick="showConditions('G3')">G3</button>
+        </div>
+    </div>
+</div>
+<div id="btnKi" class="row align-items-center"style="height: 70px;"> 
+    <div class="info-box">
+        <div class="buttons">
+            <button id="btn" class="btn btn-light"onclick="showConditions('Ki67_Low')">&lt;20</button>
+            <button id="btn" class="btn btn-light"onclick="showConditions('Ki67_High')">&gt;20</button>
+        </div>
+    </div>
+</div>
+<div id="btnRS" class="row align-items-center"style="height: 70px;">
+    <div class="info-box">
+        <div class="buttons">
+            <button id="btn" class="btn btn-light"onclick="showConditions('RS_Low')">&lt;26</button>
+            <button id="btn" class="btn btn-light"onclick="showConditions('RS_High')">&gt;26</button>
+        </div>
+    </div>
+</div>
+<div class="row align-items-center"style="height: 90px;">
+    
+        <label id="drug">
+            <img src='assets/imgs/button1.png'alt="nataleeResult">
+        </label>
+    
+        <label id="drug">
+            <img src='assets/imgs/button2.png'alt="monarchEResult">
+        </label>
+
+
+        <label id="chart">
+            <img src='assets/imgs/button 3.png'alt="monarchEResult">
+        </label>
+    
+</div>
+</div>
+    
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    
+</body>
+</html>
